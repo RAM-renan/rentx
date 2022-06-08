@@ -1,0 +1,26 @@
+{
+   "compilerOptions": {
+      "lib": [
+         "es5",
+         "es6"
+      ],
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./build",
+      "rootDir": "./",
+      "baseUrl": "./src",
+      "paths": {
+         "@modules/*": ["modules/*"],
+         "@config/*": ["config/*"],
+         "@shared/*": ["shared/*"],
+         "@errors/*": ["errors/*"],
+         "@utils/*": ["utils/*"]
+      },
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "resolveJsonModule": true
+   }
+}
